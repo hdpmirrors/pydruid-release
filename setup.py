@@ -4,6 +4,7 @@ from setuptools import setup
 install_requires = [
     "six >= 1.9.0",
     "requests",
+    "pytest-runner"
 ]
 
 extras_require = {
