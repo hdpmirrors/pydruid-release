@@ -2,8 +2,10 @@ import sys
 from setuptools import setup
 
 install_requires = [
+    "setuptools >= 30.4",
     "six >= 1.9.0",
     "requests",
+    "pytest-runner"
 ]
 
 extras_require = {
